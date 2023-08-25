@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Tomorrow';
+    src: url(fonts/Tomorrow-Bold.ttf);
+}
+
+body{
+    /* background-image: url(img/fundo.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #561185;
+}
+
+
+ul#jogadorEscolha li a:hover,
+ul#jogadorEscolha li a.selecionado,
+ul#computadorEscolha li a.selecionado{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+ul#jogadorEscolha li a,
+ul#computadorEscolha li a{
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.inicial img{
+    width: 200px;
+    margin-left: 100px;
+
+}
+
+.inicial{
+    background-color: #3D0B5E;
+    padding: 15px 0;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 0px 2px 3px rgba(0, 0, 0, 0.558);
+}
+
+h1{
+    font: 700 30px 'Tomorrow', sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 240px;
+    /* margin: 0px 300; */
+    /* background-image: linear-gradient(to bottom, rgb(255, 149, 234), rgb(208, 138, 255)); */
+}
+
+img{
+    width: 150px;
+}
+
+li{
+    list-style: none;
+}
+
+#jogadorEscolha,
+#computadorEscolha,
+#placar{
+    display: flex;
+}
+
+#placar{
+    justify-content: space-around;
+}
+
+#versus{
+    font: 40px "Unbounded", sans-serif;
+    margin-top: 110px;
+    color: white;
+}
+
+#jogador{
+    background-color: #cf7cff;
+    margin-left: 100px;
+}
+
+#computador{
+    background-color: #cf7cff;
+    margin-right: 100px;
+}
+
+#jogador,
+#computador{
+    border-radius: 22px;
+    padding: 30px 30px;
+    box-shadow: 4px 2px 6px 3px rgba(0, 0, 0, 0.418);
+}
+
+#jogadorNome,
+#computadorNome{
+    font: 20px "Unbounded", sans-serif;
+}
+
+#computadorNome{
+    text-align: right;
+}
+
+#jogadorPontos{
+    text-align: right;
+}
+
+#jogadorPontos,
+#computadorPontos{
+    font: 40px "Unbounded", sans-serif;
+    margin-top: -35px;
+    padding-bottom: 20px;
+}
+
+#mensagem{
+    font: 23px "Unbounded", sans-serif;
+    /* background-image: linear-gradient(to bottom, rgb(255, 149, 234), rgb(208, 138, 255)); */
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    margin: 80px 530px 0 530px;
+    box-shadow: 4px 2px 6px 3px rgba(0, 0, 0, 0.282);
+}
