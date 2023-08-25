@@ -118,7 +118,7 @@ li{
 }
 
 #mensagem{
-    font: 23px "Unbounded", sans-serif;
+    font: 23px 'Unbounded', sans-serif;
     /* background-image: linear-gradient(to bottom, rgb(255, 149, 234), rgb(208, 138, 255)); */
     color: rgb(0, 0, 0);
     padding: 20px 0;
